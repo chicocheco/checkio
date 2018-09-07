@@ -1,7 +1,7 @@
-
-
 # done in 40 minutes
 # note: learn how to do these algos, similar to "long_repeat.py"
+
+
 def checkio(words: str) -> bool:
     current = longest = 0  # the same as separately current = 0 and longest = 0
     for element in words.split():
@@ -11,11 +11,9 @@ def checkio(words: str) -> bool:
         else:
             current = 0
 
-    print(current, longest)
-
+    # print(current, longest)
     if longest > 2:
         return True
-
     return False
 
 

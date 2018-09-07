@@ -1,8 +1,8 @@
-
-
 # done in 1 hour
 # for next time: if first marker doesn't exist, no need to do anything, because from_index = 0. if second marker is
 # missing then len() gives me conveniently the index for the second digit when slicing.
+
+
 def between_markers(text: str, begin: str, end: str) -> str:
     """
         returns substring between two given markers

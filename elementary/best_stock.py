@@ -1,8 +1,5 @@
-
-
 # done in 5 minutes
 def best_stock(data):
-
     for key, value in data.items():
         if value == max(data.values()):
             return key

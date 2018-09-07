@@ -1,4 +1,3 @@
-
 # done in 2 hours
 # next time: to iterate over digits, convert to string. After variable 'last' gets a value it can be merged with
 # the variable 'product' because I'm interested only in the product of the last two number in next iterations.
@@ -15,6 +14,7 @@ def checkio(number: int) -> int:
             product = last = last * int(num)
 
     return product
+
 
 # These "asserts" using only for self-checking and not necessary for auto-testing
 if __name__ == '__main__':

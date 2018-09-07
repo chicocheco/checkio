@@ -1,7 +1,7 @@
-
-
 # done in 10 minutes
 # next time: string.replace(old, new) create a copy of the string, doesn't change it in place !!!
+
+
 def left_join(phrases):
     """
         Join strings and replace "right" to "left"

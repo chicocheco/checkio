@@ -1,5 +1,3 @@
-
-
 # done in 20 minutes
 def checkio(array):
     """

@@ -12,14 +12,14 @@ def bigger_price(limit: int, data: list) -> list:
 
 
 if __name__ == '__main__':
-    # from pprint import pprint
-    # print('Example:')
-    # pprint(bigger_price(2, [
-    #     {"name": "bread", "price": 100},
-    #     {"name": "wine", "price": 138},
-    #     {"name": "meat", "price": 15},
-    #     {"name": "water", "price": 1}
-    # ]))
+    from pprint import pprint
+    print('Example:')
+    pprint(bigger_price(2, [
+        {"name": "bread", "price": 100},
+        {"name": "wine", "price": 138},
+        {"name": "meat", "price": 15},
+        {"name": "water", "price": 1}
+    ]))
 
     # These "asserts" using for self-checking and not for auto-testing
     assert bigger_price(2, [

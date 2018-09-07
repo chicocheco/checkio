@@ -1,7 +1,8 @@
-
 # done in 5 minutes
 # note: second argument of the function int() is by default 10, then it returns the same number until it's not 10
 # https://en.wikipedia.org/wiki/Radix
+
+
 def checkio(str_number: str, radix: int) -> int:
     try:
         return int(str_number, radix)

@@ -1,5 +1,4 @@
 # done in 1 hour
-
 # check only the first character if it's an alphabet, because "'" is not, for example
 
 

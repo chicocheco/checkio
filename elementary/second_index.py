@@ -1,5 +1,3 @@
-
-
 # done in 30 minutes
 # string.find(symbol) or .index(symbol) return an index just of the FIRST character!! enumerate solves this
 def second_index(text: str, symbol: str) -> [int, None]:

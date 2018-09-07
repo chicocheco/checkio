@@ -1,5 +1,3 @@
-
-
 # done in 40 minutes
 # important note: str.capitalize() only returns a COPY of the string with its first character capitalized and
 #  the rest lowercased. It's not possible to simple use text.capitalize()...

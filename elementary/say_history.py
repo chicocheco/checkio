@@ -1,6 +1,3 @@
-# 1. on CheckiO your solution should be a function
-# 2. the function should return the right answer, not print it.
-
 # done in 5 seconds
 def say_hi(name: str, age: int) -> str:
     """

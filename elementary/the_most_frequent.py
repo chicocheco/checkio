@@ -13,12 +13,12 @@ def most_frequent(data: list) -> str:
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    # print('Example:')
-    # print(most_frequent([
-    #     'a', 'b', 'c',
-    #     'a', 'b',
-    #     'a'
-    # ]))
+    print('Example:')
+    print(most_frequent([
+        'a', 'b', 'c',
+        'a', 'b',
+        'a'
+    ]))
 
     assert most_frequent([
         'a', 'b', 'c',
