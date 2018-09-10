@@ -13,8 +13,8 @@ in the other case it should return False.
 """
 
 
+# done in 20 minutes
 class Warrior:
-
     attack = 5
 
     def __init__(self):
@@ -28,7 +28,6 @@ class Warrior:
 
 
 class Knight(Warrior):
-
     attack = 7
 
 

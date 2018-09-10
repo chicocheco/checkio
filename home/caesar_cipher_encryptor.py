@@ -1,8 +1,7 @@
-# done in 30 minutes
-
 import string
 
 
+# done in 30 minutes
 def to_encrypt(text, delta):
     en_letters = string.ascii_lowercase
     encrypted = ''

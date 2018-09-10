@@ -10,44 +10,36 @@ the first character of the string and check what is the maximum length of repeat
 """
 
 
-# took me the ***king entire day
+# done in several hours
 # NOTE FOR THE NEXT TIME: Never forget to consider the max() function instead of operators like > < etc.
 def long_repeat(line):
     # this is the best solution, but not mine
-    last = None
-    longest_len = 0
-    current_len = 0
-    for c in line:
-        if c != last:
-            longest_len = max(longest_len, current_len)
-            current_len = 0
-            last = c
-        current_len += 1
-    return max(longest_len, current_len)
+    # last = None
+    # longest_len = 0
+    # current_len = 0
+    # for c in line:
+    #     if c != last:
+    #         longest_len = max(longest_len, current_len)
+    #         current_len = 0
+    #         last = c
+    #     current_len += 1
+    # return max(longest_len, current_len)
 
-    # longest_substring = 0
-    # counter = 1
-    #
-    # if line == '':
-    #     return 0
-    # elif len(line) == 2 and line[0] == line[1]:
-    #     return 2
-    #
-    # for i in range(len(line) - 1):
-    #     if line[i] == line[i + 1]:
-    #         counter += 1
-    #     elif counter > longest_substring:
-    #         longest_substring = counter
-    #     else:
-    #         counter = 1
-    #
-    # return longest_substring
+    longest_substring = 0
+    counter = 1
+    if line == '':
+        return 0
+    elif len(line) == 2 and line[0] == line[1]:
+        return 2
+    for i in range(len(line) - 1):
+        if line[i] == line[i + 1]:
+            counter += 1
+        elif counter > longest_substring:
+            longest_substring = counter
+        else:
+            counter = 1
+    return longest_substring
 
-
-
-
-# long_repeat('sdsffffse')
-# long_repeat('ddvvrwwwrggg')
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing

@@ -5,6 +5,7 @@ lower_case = re.compile('[a-z]')
 upper_case = re.compile('[A-Z]')
 
 
+# done in 2.5 hours
 def checkio(password: str) -> bool:
     if len(password) < 10 or len(password) > 64:
         return False

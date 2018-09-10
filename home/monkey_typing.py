@@ -3,10 +3,10 @@ You are given some text potentially including sensible words. You should count h
  text. A word should be whole and may be a part of other word. Text letter case does not matter. Words are given in
  lowercase and don't repeat. If a word appears several times in the text, it should be counted only once.
 
- Finished in 20 minutes.
 """
 
 
+# done in 20 minutes
 def count_words(text: str, words: set) -> int:
     count = 0
     for word in words:

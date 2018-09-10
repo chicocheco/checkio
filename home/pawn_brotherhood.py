@@ -7,12 +7,11 @@ A pawn is safe if another pawn can capture a unit on that square.
 the cell is protected, the pawn there is protected too.
 3. Look at the pawns, point at each and ask yourself "could an enemy's unit be captured by another pawn if it were
 in this particular cell?" If the answer is YES = the unit in there is safe!!
-
-done in 3 hours and with help :(
-note for next time: no need to compare something to something if you can check only if it exists!!
 """
 
 
+# done in 3 hours
+# note for next time: no need to compare something to something if you can check only if it exists!!
 def safe_pawns(pawns: set) -> int:
     pawns_indexes = set()
 

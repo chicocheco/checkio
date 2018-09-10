@@ -1,3 +1,5 @@
+
+
 # done in 3 minutes
 def index_power(array: list, n: int) -> int:
     """

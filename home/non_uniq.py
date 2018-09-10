@@ -1,6 +1,7 @@
 from collections import Counter
 
 
+# done in 20 minutes
 def checkio(data: list) -> list:
     counted = Counter(data)
     uniq = []
